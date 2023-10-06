@@ -27,7 +27,7 @@ async function removeContact(contactId) {
 
     await fs.writeFile(contactsPath, JSON.stringify(allContacts, null, 2));
 
-    return deletedContact;
+    return deletedContact[0];
   }
   return null;
 }

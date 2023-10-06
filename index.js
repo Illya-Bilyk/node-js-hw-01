@@ -22,7 +22,7 @@ async function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
     case "list":
       const allContacts = await listContacts();
-      return console.log(allContacts);
+      return console.table(allContacts);
 
     case "get":
       const contact = await getContactById(id);
