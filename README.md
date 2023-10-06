@@ -1,4 +1,3 @@
-https://ibb.co/kSyz7NF
-https://ibb.co/SJ0G205
+https://ibb.co/Q8fnQWD
 
-# Screenshots from console
+# Screenshots from the console
